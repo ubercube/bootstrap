@@ -1,4 +1,4 @@
-package fr.veridiangames.uberstrap;
+package fr.veridiangames.uberstrap.utils;
 
 import java.io.BufferedOutputStream;
 import java.io.File;

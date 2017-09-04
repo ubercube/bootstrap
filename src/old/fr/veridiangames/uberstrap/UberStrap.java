@@ -1,4 +1,7 @@
-package fr.veridiangames.uberstrap;
+package old.fr.veridiangames.uberstrap;
+
+import fr.veridiangames.uberstrap.utils.DownloadUtils;
+import fr.veridiangames.uberstrap.utils.ZipUtils;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -18,7 +21,7 @@ import java.nio.file.StandardCopyOption;
 import javax.swing.JFrame;
 import javax.swing.JProgressBar;
 
-import net.jimmc.jshortcut.JShellLink;
+//import net.jimmc.jshortcut.JShellLink;
 
 /*
  * Appdata/
@@ -292,7 +295,7 @@ public class UberStrap
 				{
 					if (this.currentOs == Os.WINDOWS)
 					{
-						JShellLink		link;
+						//JShellLink		link;
 						String			filepath;
 
 						try
@@ -314,13 +317,13 @@ public class UberStrap
 							}
 							
 							System.out.println("Creating shortcut...");
-							link = new JShellLink();
+							/*link = new JShellLink();
 							filepath = JShellLink.getDirectory("") + c.getCanonicalPath();
 							link.setFolder(JShellLink.getDirectory("desktop"));
 							link.setIconLocation(icon.getCanonicalPath());
 							link.setName("Ubercube");
 							link.setPath(filepath);
-							link.save();
+							link.save();*/
 						}
 						catch (Exception e)
 						{

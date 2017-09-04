@@ -1,4 +1,4 @@
-package fr.veridiangames.uberstrap;
+package fr.veridiangames.uberstrap.utils;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -27,7 +27,7 @@ public class DownloadUtils
 
 				try
 				{
-					// Création de la connexion
+					// Crï¿½ation de la connexion
 					URL url = new URL(adresse);
 
 					URLConnection conn = url.openConnection();
@@ -43,7 +43,7 @@ public class DownloadUtils
 					else
 						bar.setMaximum(fileLength);
 
-					// Lecture de la réponse
+					// Lecture de la rï¿½ponse
 
 					InputStream in = conn.getInputStream();
 					reader = new BufferedReader(new InputStreamReader(in));
